@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SampleBank - Home</title>
+    <link rel="stylesheet" href="./syles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<!-- TOP FDIC BAR -->
+<div class="fdic-bar">
+    Deposit products: FDIC-insured — Backed by the full faith and credit of the U.S. Government
+</div>
+
+<!-- SMALL TOP LINK BAR -->
+<div class="top-links">
+    <a href="#">Security</a>
+    <a href="#">About Us</a>
+    <a href="#">Español</a>
+    <a href="#">Contact Us</a>
+    <a href="#">Help</a>
+</div>
+
+<!--background img-->
+<div class="background-img">
+
+</div>
+
+<!-- MAIN NAVIGATION -->
+<nav class="nav">
+    <div class="nav-left">
+        <div class="fake-logo">My Bank Of America</div>
+        <ul class="nav-menu">
+            <li>Personal</li>
+            <li>Business</li>
+            <li>Wealth</li>
+            <li>Corporate</li>
+        </ul>
+    </div>
+
+    <div class="nav-right">
+        <input type="text" id="searchInput" placeholder="Search">
+    </div>
+</nav>
+
+<!-- CATEGORY BAR -->
+<div class="category-bar">
+    <span>Checking</span>
+    <span>Savings & CDs</span>
+    <span>Credit Cards</span>
+    <span>Home Loans</span>
+    <span>Auto Loans</span>
+    <span>Investing</span>
+    <span>Better Money Habits</span>
+</div>
+
+<!-- HERO AREA -->
+<div class="hero">
+
+    <!-- LOGIN PANEL -->
+    <div class="login-panel">
+        <label>User ID</label>
+        <input type="text" id="userId">
+
+        <label>Password</label>
+        <input type="password" id="password">
+
+        <div class="save-id">
+            <input type="checkbox" id="saveUserId">
+            <label for="saveUserId">Save user ID</label>
+        </div>
+
+        <button class="login-btn" onclick="login()">Log In</button>
+    </div>
+
+    <!-- TEXT + IMAGE SIDE PANEL -->
+    <div class="hero-info">
+        <h1>A new financial center<br>in your neighborhood</h1>
+        <p>We're here to listen to your goals and offer personalized advice.</p>
+        <button class="talk-btn" onclick="openTalkModal()">Let's talk</button>
+    </div>
+
+    <img class="hero-img" src="https://images.unsplash.com/photo-1581091012184-5c8af0a1cd72?auto=format&fit=crop&w=1200&q=60">
+</div>
+
+<!-- BOTTOM OFFER BAR -->
+<div class="offer">
+    <span> CASH OFFER UP TO $500 for new checking customers</span>
+    <a href="#">See details</a>
+</div>
+<p><em>created by Thierno Bah, Jasmine Bailey, Tyler Stallworth</em></p>
+</body>
+</html>

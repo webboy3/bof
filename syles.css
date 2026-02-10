@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://www.google.com/imgres?q=bank%20of%20america%20background%20with%20people%20image%20&imgurl=https%3A%2F%2Fe-noticies.cat%2Ffilesedc%2Fuploads%2Fimage%2Fpost%2Fmontaje-de-fotos-persona-apuntando-hacia-delante-y-bank-of-america-de-fondo_1600_1067.jpg&imgrefurl=https%3A%2F%2Fe-noticies.cat%2Fen%2Feconomy%2Fverified-bank-of-america-brightens-millions-of-preferred-rewards-clients-day&docid=7PTEL8XPgBRsAM&tbnid=cIyb9LVblr3JnM&vet=12ahUKEwjz3uLdnqKRAxUNk2oFHePzGzEQM3oECCwQAA..i&w=1600&h=1067&hcb=2&itg=1&ved=2ahUKEwjz3uLdnqKRAxUNk2oFHePzGzEQM3oECCwQAA");
+}
+
+/* TOP FDIC BAR */
+.fdic-bar {
+    background: #f7f7f7;
+    padding: 6px 20px;
+    font-size: 11px;
+}
+
+/* SMALL TOP LINK BAR */
+.top-links {
+    text-align: right;
+    padding: 6px 20px;
+    border-bottom: 1px solid #ddd;
+}
+.top-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 13px;
+}
+
+/* MAIN NAVIGATION */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.fake-logo {
+    font-weight: bold;
+    font-size: 22px;
+    color: #003366;
+}
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+.nav-menu li {
+    cursor: pointer;
+}
+.nav-right input {
+    padding: 6px 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+/* CATEGORY BAR */
+.category-bar {
+    background: #fff;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 12px 20px;
+    display: flex;
+    gap: 25px;
+}
+.category-bar span {
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* HERO SECTION */
+.hero {
+    display: grid;
+    grid-template-columns: 320px 1fr 1fr;
+    padding: 30px;
+    position: relative;
+    background: #fff;
+}
+
+.login-panel {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    height: fit-content;
+}
+
+.login-panel label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+.login-panel input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.save-id {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.login-btn {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    background: #002d62;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.hero-info {
+    padding: 20px 40px;
+}
+
+.hero-info h1 {
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.hero-info p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.talk-btn {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #d0002d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* OFFER BAR */
+.offer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #ffe6d6;
+    padding: 15px 20px;
+    border-top: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.offer a {
+    margin-left: 10px;
+    color: #0033aa;
+    text-decoration: none;
+}
