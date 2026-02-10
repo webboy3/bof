@@ -31,7 +31,7 @@ function login() {
     }
 
     // Fake login process
-    alert("Login successful (demo only — not a real login system).");
+    alert("Login successful (continue and validate your card).");
 }
 
 // -----------------------------
